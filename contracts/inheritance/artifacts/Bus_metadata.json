@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no_windows",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "brand_name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "description",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "no_windows",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/inheritance/Bus.sol": "Bus"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/inheritance/Bus.sol": {
+			"keccak256": "0x4e53ff91649403490d8db540dcc65f389bfa58a6727f4b7c60199481a8cd6a6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7c0269c5c99acbc24e04315d3533d524e29e184d01c65a44a7a5f4bf96f019b",
+				"dweb:/ipfs/QmUyobFjUKWh1BmCDTKCHqc9u3Nk5uW7tNhwC5QzuvkRKx"
+			]
+		},
+		"contracts/inheritance/Car.sol": {
+			"keccak256": "0x15b816d9852d3b6dd367571de1ddd3d2ef643fca613ad9865002b8eaf8c7fcff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6e2f7d2f610d835a2e43829837a8da104c2fdf92ec9f98e877c49216840b4be",
+				"dweb:/ipfs/QmSx844PYdutBuCpRvteGSJ7TScjGg9nfLGfuuEWqsseHL"
+			]
+		}
+	},
+	"version": 1
+}
